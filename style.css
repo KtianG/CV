@@ -5,12 +5,19 @@ body {
 
 .wrapper {
   display: flex;
+  position: relative;
   flex-direction: row-reverse;
   justify-content: center;
   width: 1200px;
   margin: 0 auto;
   background: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.language {
+  position: absolute;
+  right: 100px;
+  top: 20px;
 }
 
 aside {
@@ -42,6 +49,19 @@ aside {
   margin-left: 0;
   padding-left: 0;
   list-style-position: inside;
+}
+
+.list-secondary--hard-skills {
+  color: #1e2939;
+  font-size: 12px;
+  line-height: 24px;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.filled-dot {
+  color: #fb6d3a;
 }
 
 .list-secondary-item {
@@ -137,6 +157,7 @@ h1 {
   font-size: 22px;
   line-height: 27px;
   margin-bottom: 12px;
+  text-decoration: none;
 }
 
 .job-data {
@@ -174,6 +195,10 @@ h1 {
 
     margin: 0px;
     background: none;
+  }
+
+  .language {
+    display: none;
   }
 
   .contact-block {
