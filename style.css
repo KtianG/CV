@@ -23,9 +23,17 @@ body {
 aside {
   width: 320px;
   background: #1e2939;
+  margin-left: 0px;
 }
 
 .cv-photo {
+  width: 200px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-left: 50px;
 }
 
 .header-secondary {
@@ -85,6 +93,7 @@ aside {
 
 main {
   padding: 80px 60px 80px 60px;
+  width: 600px;
 }
 
 .main-description {
@@ -130,6 +139,11 @@ h1 {
   line-height: 24px;
   color: #595959;
   text-decoration: none;
+}
+
+.list-primary-item__link {
+  color: #fb6d3a;
+  font-weight: 700;
 }
 
 .job-position {
@@ -195,6 +209,16 @@ h1 {
 
     margin: 0px;
     background: none;
+  }
+
+  .cv-photo {
+    width: 170px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 25px;
   }
 
   .language {
